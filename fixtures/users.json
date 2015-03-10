@@ -1,0 +1,7 @@
+[
+	{ "name" : "user one", "status" : "active" 	},
+	{ "name" : "user two", "status" : "active" 	},
+	{ "name" : "user three", "status" : "active" },
+	{ "name" : "user four", "status" : "active" 	},
+	{ "name" : "user five", "status" : "deleted" }
+]

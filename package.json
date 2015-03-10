@@ -1,0 +1,40 @@
+{
+  "name": "bulk-mongodb",
+  "description": "bulk insert data into mongdb for integration tests",
+  "author": "Andrew Keig <andrew.keig@gmail.com>",
+  "version": "0.0.1",
+  "homepage": "https://github.com/andrewkeig/bulk-mongodb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewkeig/bulk-mongodb"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "mocha",
+    "pretest": "jshint index.js && jshint test.js && jshint example.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "lodash": "^3.5.0",
+    "mongojs": "^0.18.1"
+  },
+  "keywords": [
+    "mongodb",
+    "bulk",
+    "import",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/andrewkeig/bulk-mongodb/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/andrewkeig/bulk-mongodb/raw/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "jshint": "^2.6.3",
+    "mocha": "^2.2.1"
+  }
+}
