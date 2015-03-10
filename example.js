@@ -10,7 +10,7 @@ describe('notifications', function() {
   	var notifications = require('./fixtures/notifications');
   	var users         = require('./fixtures/users');
     
-  	var url = 'mongodb://localhost:27017/bulkMongoDbtest';
+  	var url = 'mongodb://127.0.0.1:27017/bulkMongoDbtest';
 
     var data = [
       { collection : 'notifications', documents : notifications },

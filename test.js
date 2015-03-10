@@ -31,7 +31,7 @@ describe('BulkMongoDb', function() {
 
     it('should throw error', function() {
 
-      var url = 'mongodb://localhost:27017/bulkMongoDbtest';
+      var url = 'mongodb://127.0.0.1:27017/bulkMongoDbtest';
 
       var data = null;
 
@@ -47,7 +47,7 @@ describe('BulkMongoDb', function() {
 
     it('should throw error', function() {
 
-      var url = 'mongodb://localhost:27017/bulkMongoDbtest';
+      var url = 'mongodb://127.0.0.1:27017/bulkMongoDbtest';
 
       var data = [
         { collection : 'notifications', documents : null },
@@ -66,7 +66,7 @@ describe('BulkMongoDb', function() {
 
     it('should throw error', function() {
 
-      var url = 'mongodb://localhost:27017/bulkMongoDbtest';
+      var url = 'mongodb://127.0.0.1:27017/bulkMongoDbtest';
 
       var data = [
         { collection : '', documents : notifications },
@@ -85,7 +85,7 @@ describe('BulkMongoDb', function() {
 
     it('should insert data', function() {
 
-      var url = 'mongodb://localhost:27017/bulkMongoDbtest';
+      var url = 'mongodb://127.0.0.1:27017/bulkMongoDbtest';
 
       var data = [
         { collection : 'notifications', documents : notifications },
@@ -104,7 +104,7 @@ describe('BulkMongoDb', function() {
 
     it('should insert data', function(done) {
 
-      var url = 'mongodb://localhost:27017/bulkMongoDbtest';
+      var url = 'mongodb://127.0.0.1:27017/bulkMongoDbtest';
 
       var data = [
         { collection : 'notifications', documents : notifications },
@@ -125,7 +125,7 @@ describe('BulkMongoDb', function() {
 
     it('should drop data', function(done) {
 
-      var url = 'mongodb://localhost:27017/bulkMongoDb';
+      var url = 'mongodb://127.0.0.1:27017/bulkMongoDb';
 
       var data = [
         { collection : 'notifications', documents : notifications },
