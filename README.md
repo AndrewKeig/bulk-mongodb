@@ -57,6 +57,19 @@ describe('notifications', function() {
 ```
 
 
+## Fixtures
+The fixture used in the above example.
+
+```json
+[
+  { "title" : "notification one", "status" : "active"   },
+  { "title" : "notification two", "status" : "active"   },
+  { "title" : "notification three", "status" : "active" },
+  { "title" : "notification four", "status" : "active"  },
+  { "title" : "notification five", "status" : "deleted" }
+]
+```
+
 ## Test
 
 ```sh
