@@ -13,9 +13,9 @@ $ npm install bulk-mongodb --save-dev
 
 
 ## Setup
-Consider the following test, the `before` block, setups a data set with an array of things to import. We create a `BulkMongoDb`, passing in a mongodb `url`, and the data set.  we then execute `bulkMongoDb.insert`, which runs the bulk insert.  The `after` block cleans this up by dropping the collections.
+Consider the following test, the `before` block, setups a data set with an array of things to import. We create a `BulkMongoDb`, passing in a mongodb `url`, and the data set.  we then execute `bulkMongoDb.insert`, which runs the bulk insert.  The `after` block cleans this up by dropping the collections we added.
 
-```
+```javascript
 'use strict';
 
 var assert        = require('assert');
@@ -56,6 +56,12 @@ describe('notifications', function() {
 });
 ```
 
+
+## Test
+
+```sh
+$ npm test
+```
 
 ## License
 
