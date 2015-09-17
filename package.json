@@ -2,7 +2,7 @@
   "name": "bulk-mongodb",
   "description": "bulk insert data into mongdb for integration tests",
   "author": "Andrew Keig <andrew.keig@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "homepage": "https://github.com/andrewkeig/bulk-mongodb",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "lodash": "^3.5.0",
-    "mongojs": "^0.18.1"
+    "mongojs": "^1.3.0"
   },
   "keywords": [
     "mongodb",
