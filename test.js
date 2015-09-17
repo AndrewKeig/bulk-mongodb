@@ -100,7 +100,7 @@ describe('BulkMongoDb', function() {
     });
   });
 
-  describe('when populating mongodb with valid dataset', function() {
+  describe.skip('when populating mongodb with valid dataset', function() {
 
     it('should insert data', function(done) {
 
