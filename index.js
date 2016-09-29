@@ -26,6 +26,7 @@ BulkMongoDb.prototype.insert = function(done) {
   	var bulk = _this.db[item.collection].initializeOrderedBulkOp();
 
     item.documents.forEach(function(item) {
+      if (item._id) { item._id = Mongo.ObjectId(item._id); }
       bulk.insert(item);
     });
 
